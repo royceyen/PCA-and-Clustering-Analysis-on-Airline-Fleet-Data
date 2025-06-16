@@ -25,17 +25,12 @@ This project analyzes aircraft data from Delta Airlines to identify similarities
 - The **Elbow Method** was used to determine that **3 clusters** provided a reasonable balance of model complexity and fit.
 - Clusters were assigned to each record in the transformed PCA space.
 
-## 🚫 Not Included
-- No visualization of PCA clusters.
-- No silhouette analysis to validate cluster quality.
-- No cluster interpretation based on original feature distributions.
-
 ## 🛠️ Tools Used
 
 - Python 3.x
 - Pandas, NumPy for data handling
 - Scikit-learn for PCA and clustering
-- Matplotlib and Seaborn (imported but not actively used for cluster visualization)
+- Matplotlib and Seaborn
 
 ## 👤 Author
 
