@@ -19,6 +19,7 @@ This project analyzes aircraft data from Delta Airlines to identify similarities
 ### 2. Dimensionality Reduction with PCA
 - Performed PCA to reduce the number of features to 4 components.
 - PCA was used to compress the dataset while preserving as much variance as possible.
+- Visualized the cluster membership using scatter plots in PCA space.
 
 ### 3. KMeans Clustering
 - Applied KMeans clustering on the PCA-transformed data.
